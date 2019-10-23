@@ -1,7 +1,7 @@
 syntax = "proto2";
 
 package com.android.dialer.logging;
-option java_package = "com.android.dialer.logging";
+option java_package = "com.android.dialer2.logging";
 option java_multiple_files = true;
 option optimize_for = LITE_RUNTIME;
 
