@@ -19,7 +19,7 @@ import android.app.job.JobWorkItem;
 import android.content.Context;
 import android.support.annotation.VisibleForTesting;
 import android.util.Pair;
-import com.android.dialer.logging.DialerImpression;
+import com.android.dialer2.logging.DialerImpression;
 import com.android.voicemail.VoicemailComponent;
 import com.android.voicemail.impl.VvmLog;
 import com.android.voicemail.impl.transcribe.TranscriptionService.JobCallback;

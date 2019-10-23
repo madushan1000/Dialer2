@@ -17,7 +17,7 @@ package com.android.contacts.common.list;
 
 import android.app.ActionBar;
 import android.net.Uri;
-import com.android.dialer.callintent.CallSpecificAppData;
+import com.android.dialer2.callintent.CallSpecificAppData;
 
 /** Action callbacks that can be sent by a phone number picker. */
 public interface OnPhoneNumberPickerActionListener {

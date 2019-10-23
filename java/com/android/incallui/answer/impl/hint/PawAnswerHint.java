@@ -33,7 +33,7 @@ import android.view.animation.Interpolator;
 import android.view.animation.LinearInterpolator;
 import android.widget.ImageView;
 import android.widget.TextView;
-import com.android.dialer.common.Assert;
+import com.android.dialer2.common.Assert;
 
 /**
  * An Answer hint that animates a {@link Drawable} payload with animation similar to {@link

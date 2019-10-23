@@ -25,11 +25,11 @@ import android.telecom.Call;
 import android.telecom.Call.Details;
 import android.telecom.PhoneAccountHandle;
 import android.telecom.VideoProfile;
-import com.android.dialer.common.Assert;
-import com.android.dialer.common.LogUtil;
-import com.android.dialer.logging.DialerImpression;
-import com.android.dialer.logging.LoggingBindings;
-import com.android.dialer.util.CallUtil;
+import com.android.dialer2.common.Assert;
+import com.android.dialer2.common.LogUtil;
+import com.android.dialer2.logging.DialerImpression;
+import com.android.dialer2.logging.LoggingBindings;
+import com.android.dialer2.util.CallUtil;
 import com.android.incallui.video.protocol.VideoCallScreen;
 import com.android.incallui.video.protocol.VideoCallScreenDelegate;
 import com.android.incallui.videotech.VideoTech;
@@ -328,8 +328,8 @@ public class ImsVideoTech implements VideoTech {
   }
 
   @Override
-  public com.android.dialer.logging.VideoTech.Type getVideoTechType() {
-    return com.android.dialer.logging.VideoTech.Type.IMS_VIDEO_TECH;
+  public com.android.dialer2.logging.VideoTech.Type getVideoTechType() {
+    return com.android.dialer2.logging.VideoTech.Type.IMS_VIDEO_TECH;
   }
 
   private boolean canPause() {

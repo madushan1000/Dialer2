@@ -24,10 +24,10 @@ import android.telecom.DisconnectCause;
 import android.telecom.PhoneAccountHandle;
 import android.util.Pair;
 import com.android.contacts.common.compat.telecom.TelecomManagerCompat;
-import com.android.dialer.callintent.CallInitiationType;
-import com.android.dialer.callintent.CallIntentBuilder;
-import com.android.dialer.common.LogUtil;
-import com.android.dialer.precall.PreCall;
+import com.android.dialer2.callintent.CallInitiationType;
+import com.android.dialer2.callintent.CallIntentBuilder;
+import com.android.dialer2.common.LogUtil;
+import com.android.dialer2.precall.PreCall;
 import com.android.incallui.call.DialerCall;
 
 /** Prompt user to make voice call if video call is not currently available. */

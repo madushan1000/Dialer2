@@ -25,7 +25,7 @@ import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.telecom.PhoneAccountHandle;
 import android.text.TextUtils;
-import com.android.dialer.logging.DialerImpression;
+import com.android.dialer2.logging.DialerImpression;
 import com.android.voicemail.PinChanger;
 import com.android.voicemail.VoicemailComponent;
 import com.android.voicemail.impl.ActivationTask;

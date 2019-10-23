@@ -22,7 +22,7 @@ import android.telecom.PhoneAccountHandle;
 import android.telephony.TelephonyManager;
 import android.telephony.VisualVoicemailService;
 import android.telephony.VisualVoicemailSmsFilterSettings;
-import com.android.dialer.common.LogUtil;
+import com.android.dialer2.common.LogUtil;
 import java.lang.reflect.Method;
 
 /** Handles {@link TelephonyManager} API changes in experimental SDK */

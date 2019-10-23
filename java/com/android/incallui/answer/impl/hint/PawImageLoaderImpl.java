@@ -23,9 +23,9 @@ import android.graphics.drawable.Drawable;
 import android.os.Build.VERSION_CODES;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
-import com.android.dialer.common.Assert;
-import com.android.dialer.common.LogUtil;
-import com.android.dialer.storage.StorageComponent;
+import com.android.dialer2.common.Assert;
+import com.android.dialer2.common.LogUtil;
+import com.android.dialer2.storage.StorageComponent;
 import com.android.incallui.answer.impl.hint.PawSecretCodeListener.PawType;
 
 /** Decrypt the event payload to be shown if in a specific time range and the key is received. */

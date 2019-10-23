@@ -23,7 +23,7 @@ import android.text.SpannableString;
 import android.text.method.DialerKeyListener;
 import android.view.KeyEvent;
 import android.view.View;
-import com.android.dialer.common.LogUtil;
+import com.android.dialer2.common.LogUtil;
 
 /**
  * Key listener specialized to deal with Dtmf codes.

@@ -24,7 +24,7 @@ import android.support.v4.os.BuildCompat;
 import android.telecom.PhoneAccountHandle;
 import android.text.TextUtils;
 import android.util.ArrayMap;
-import com.android.dialer.logging.DialerImpression;
+import com.android.dialer2.logging.DialerImpression;
 import com.android.voicemail.VoicemailComponent;
 import com.android.voicemail.impl.ActivationTask;
 import com.android.voicemail.impl.Assert;

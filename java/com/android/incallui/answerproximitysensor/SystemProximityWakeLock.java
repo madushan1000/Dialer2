@@ -22,7 +22,7 @@ import android.hardware.display.DisplayManager.DisplayListener;
 import android.os.PowerManager;
 import android.support.annotation.Nullable;
 import android.view.Display;
-import com.android.dialer.common.LogUtil;
+import com.android.dialer2.common.LogUtil;
 
 /** The normal PROXIMITY_SCREEN_OFF_WAKE_LOCK provided by the OS. */
 public class SystemProximityWakeLock implements AnswerProximityWakeLock, DisplayListener {

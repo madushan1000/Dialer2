@@ -33,9 +33,9 @@ import android.telecom.PhoneAccount;
 import android.telecom.PhoneAccountHandle;
 import android.telecom.TelecomManager;
 import android.text.TextUtils;
-import com.android.dialer.common.Assert;
-import com.android.dialer.common.concurrent.ThreadUtil;
-import com.android.dialer.strictmode.StrictModeUtils;
+import com.android.dialer2.common.Assert;
+import com.android.dialer2.common.concurrent.ThreadUtil;
+import com.android.dialer2.strictmode.StrictModeUtils;
 import com.android.voicemail.VoicemailComponent;
 
 /**

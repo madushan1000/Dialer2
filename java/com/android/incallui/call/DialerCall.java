@@ -47,32 +47,32 @@ import android.telecom.VideoProfile;
 import android.text.TextUtils;
 import com.android.contacts.common.compat.CallCompat;
 import com.android.contacts.common.compat.telecom.TelecomManagerCompat;
-import com.android.dialer.assisteddialing.ConcreteCreator;
-import com.android.dialer.assisteddialing.TransformationInfo;
-import com.android.dialer.callintent.CallInitiationType;
-import com.android.dialer.callintent.CallIntentParser;
-import com.android.dialer.callintent.CallSpecificAppData;
-import com.android.dialer.common.Assert;
-import com.android.dialer.common.LogUtil;
-import com.android.dialer.compat.telephony.TelephonyManagerCompat;
-import com.android.dialer.configprovider.ConfigProviderBindings;
-import com.android.dialer.duo.DuoComponent;
-import com.android.dialer.enrichedcall.EnrichedCallCapabilities;
-import com.android.dialer.enrichedcall.EnrichedCallComponent;
-import com.android.dialer.enrichedcall.EnrichedCallManager;
-import com.android.dialer.enrichedcall.EnrichedCallManager.CapabilitiesListener;
-import com.android.dialer.enrichedcall.EnrichedCallManager.Filter;
-import com.android.dialer.enrichedcall.EnrichedCallManager.StateChangedListener;
-import com.android.dialer.enrichedcall.Session;
-import com.android.dialer.location.GeoUtil;
-import com.android.dialer.logging.ContactLookupResult;
-import com.android.dialer.logging.ContactLookupResult.Type;
-import com.android.dialer.logging.DialerImpression;
-import com.android.dialer.logging.Logger;
-import com.android.dialer.telecom.TelecomCallUtil;
-import com.android.dialer.telecom.TelecomUtil;
-import com.android.dialer.theme.R;
-import com.android.dialer.util.PermissionsUtil;
+import com.android.dialer2.assisteddialing.ConcreteCreator;
+import com.android.dialer2.assisteddialing.TransformationInfo;
+import com.android.dialer2.callintent.CallInitiationType;
+import com.android.dialer2.callintent.CallIntentParser;
+import com.android.dialer2.callintent.CallSpecificAppData;
+import com.android.dialer2.common.Assert;
+import com.android.dialer2.common.LogUtil;
+import com.android.dialer2.compat.telephony.TelephonyManagerCompat;
+import com.android.dialer2.configprovider.ConfigProviderBindings;
+import com.android.dialer2.duo.DuoComponent;
+import com.android.dialer2.enrichedcall.EnrichedCallCapabilities;
+import com.android.dialer2.enrichedcall.EnrichedCallComponent;
+import com.android.dialer2.enrichedcall.EnrichedCallManager;
+import com.android.dialer2.enrichedcall.EnrichedCallManager.CapabilitiesListener;
+import com.android.dialer2.enrichedcall.EnrichedCallManager.Filter;
+import com.android.dialer2.enrichedcall.EnrichedCallManager.StateChangedListener;
+import com.android.dialer2.enrichedcall.Session;
+import com.android.dialer2.location.GeoUtil;
+import com.android.dialer2.logging.ContactLookupResult;
+import com.android.dialer2.logging.ContactLookupResult.Type;
+import com.android.dialer2.logging.DialerImpression;
+import com.android.dialer2.logging.Logger;
+import com.android.dialer2.telecom.TelecomCallUtil;
+import com.android.dialer2.telecom.TelecomUtil;
+import com.android.dialer2.theme.R;
+import com.android.dialer2.util.PermissionsUtil;
 import com.android.incallui.audiomode.AudioModeProvider;
 import com.android.incallui.latencyreport.LatencyReport;
 import com.android.incallui.videotech.VideoTech;
@@ -170,8 +170,8 @@ public class DialerCall implements VideoTechListener, StateChangedListener, Capa
   private int secondCallWithoutAnswerAndReleasedButtonTimes = 0;
   private VideoTech videoTech;
 
-  private com.android.dialer.logging.VideoTech.Type selectedAvailableVideoTechType =
-      com.android.dialer.logging.VideoTech.Type.NONE;
+  private com.android.dialer2.logging.VideoTech.Type selectedAvailableVideoTechType =
+      com.android.dialer2.logging.VideoTech.Type.NONE;
   private boolean isVoicemailNumber;
   private List<PhoneAccountHandle> callCapableAccounts;
   private String countryIso;
@@ -1305,7 +1305,7 @@ public class DialerCall implements VideoTechListener, StateChangedListener, Capa
       videoTech = videoTechManager.getVideoTech(getAccountHandle());
 
       // Only store the first video tech type found to be available during the life of the call.
-      if (selectedAvailableVideoTechType == com.android.dialer.logging.VideoTech.Type.NONE) {
+      if (selectedAvailableVideoTechType == com.android.dialer2.logging.VideoTech.Type.NONE) {
         // Update the video tech.
         selectedAvailableVideoTechType = videoTech.getVideoTechType();
       }
@@ -1485,7 +1485,7 @@ public class DialerCall implements VideoTechListener, StateChangedListener, Capa
     videoTechManager.dispatchRemovedFromCallList();
   }
 
-  public com.android.dialer.logging.VideoTech.Type getSelectedAvailableVideoTechType() {
+  public com.android.dialer2.logging.VideoTech.Type getSelectedAvailableVideoTechType() {
     return selectedAvailableVideoTechType;
   }
 

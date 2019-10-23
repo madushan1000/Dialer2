@@ -24,7 +24,7 @@ import android.provider.VoicemailContract;
 import android.provider.VoicemailContract.Status;
 import android.support.annotation.Nullable;
 import android.telecom.PhoneAccountHandle;
-import com.android.dialer.strictmode.StrictModeUtils;
+import com.android.dialer2.strictmode.StrictModeUtils;
 
 public class VoicemailStatus {
 

@@ -19,7 +19,7 @@ package com.android.incallui.incall.protocol;
 import android.os.Parcel;
 import android.os.Parcelable;
 import android.support.annotation.Nullable;
-import com.android.dialer.common.LogUtil;
+import com.android.dialer2.common.LogUtil;
 import com.google.auto.value.AutoValue;
 import java.util.Locale;
 

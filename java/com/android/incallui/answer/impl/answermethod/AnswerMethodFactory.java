@@ -21,8 +21,8 @@ import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.annotation.VisibleForTesting;
 import android.support.v4.app.Fragment;
-import com.android.dialer.common.LogUtil;
-import com.android.dialer.compat.ActivityCompat;
+import com.android.dialer2.common.LogUtil;
+import com.android.dialer2.compat.ActivityCompat;
 import com.android.incallui.util.AccessibilityUtil;
 
 /** Creates the appropriate {@link AnswerMethod} for the circumstances. */

@@ -18,7 +18,7 @@ package com.android.incallui.videosurface.impl;
 
 import android.graphics.Matrix;
 import android.view.TextureView;
-import com.android.dialer.common.LogUtil;
+import com.android.dialer2.common.LogUtil;
 
 /** Utilities to scale the preview and remote video. */
 public class VideoScale {

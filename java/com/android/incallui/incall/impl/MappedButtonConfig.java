@@ -19,7 +19,7 @@ package com.android.incallui.incall.impl;
 import android.support.annotation.NonNull;
 import android.support.v4.util.ArrayMap;
 import android.util.ArraySet;
-import com.android.dialer.common.Assert;
+import com.android.dialer2.common.Assert;
 import com.android.incallui.incall.protocol.InCallButtonIds;
 import com.android.incallui.incall.protocol.InCallButtonIdsExtension;
 import com.google.auto.value.AutoValue;

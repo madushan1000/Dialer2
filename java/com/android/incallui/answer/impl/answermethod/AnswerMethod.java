@@ -20,7 +20,7 @@ import android.content.Context;
 import android.graphics.drawable.Drawable;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
-import com.android.dialer.common.FragmentUtils;
+import com.android.dialer2.common.FragmentUtils;
 
 /** A fragment that can be used to answer/reject calls. */
 public abstract class AnswerMethod extends Fragment {

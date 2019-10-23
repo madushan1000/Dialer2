@@ -20,7 +20,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.telecom.PhoneAccountHandle;
-import com.android.dialer.proguard.UsedByReflection;
+import com.android.dialer2.proguard.UsedByReflection;
 import com.android.voicemail.impl.VoicemailStatus;
 import com.android.voicemail.impl.VvmLog;
 import com.android.voicemail.impl.scheduling.BaseTask;

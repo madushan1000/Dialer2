@@ -32,7 +32,7 @@ import android.telephony.TelephonyManager;
 import android.telephony.VisualVoicemailSmsFilterSettings;
 import android.text.TextUtils;
 import android.util.ArraySet;
-import com.android.dialer.common.Assert;
+import com.android.dialer2.common.Assert;
 import com.android.voicemail.impl.configui.ConfigOverrideFragment;
 import com.android.voicemail.impl.protocol.VisualVoicemailProtocol;
 import com.android.voicemail.impl.protocol.VisualVoicemailProtocolFactory;

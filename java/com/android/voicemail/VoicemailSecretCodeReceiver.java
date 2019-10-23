@@ -19,7 +19,7 @@ package com.android.voicemail;
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
-import com.android.dialer.common.LogUtil;
+import com.android.dialer2.common.LogUtil;
 
 /** Receives android.provider.Telephony.SECRET_CODE */
 public class VoicemailSecretCodeReceiver extends BroadcastReceiver {

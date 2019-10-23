@@ -18,7 +18,7 @@ package com.android.voicemail.impl.scheduling;
 
 import android.content.Context;
 import android.os.Bundle;
-import com.android.dialer.proguard.UsedByReflection;
+import com.android.dialer2.proguard.UsedByReflection;
 import com.android.voicemail.impl.VvmLog;
 
 /** Task to block another task of the same ID from being queued for a certain amount of time. */

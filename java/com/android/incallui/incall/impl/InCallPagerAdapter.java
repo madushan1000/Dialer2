@@ -21,8 +21,8 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentStatePagerAdapter;
 import android.support.v4.view.PagerAdapter;
-import com.android.dialer.common.Assert;
-import com.android.dialer.multimedia.MultimediaData;
+import com.android.dialer2.common.Assert;
+import com.android.dialer2.multimedia.MultimediaData;
 import com.android.incallui.sessiondata.MultimediaFragment;
 
 /** View pager adapter for in call ui. */

@@ -41,7 +41,7 @@ import com.android.contacts.common.R;
 import com.android.contacts.common.model.dataitem.DataKind;
 import com.android.contacts.common.util.CommonDateUtils;
 import com.android.contacts.common.util.ContactDisplayUtils;
-import com.android.dialer.common.LogUtil;
+import com.android.dialer2.common.LogUtil;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;

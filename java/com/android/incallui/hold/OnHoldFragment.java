@@ -30,7 +30,7 @@ import android.view.View.OnAttachStateChangeListener;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
-import com.android.dialer.common.Assert;
+import com.android.dialer2.common.Assert;
 import com.android.incallui.incall.protocol.SecondaryInfo;
 
 /** Shows banner UI for background call */

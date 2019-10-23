@@ -19,7 +19,7 @@ package com.android.incallui;
 import android.net.Uri;
 import android.telecom.PhoneAccount;
 import android.telephony.PhoneNumberUtils;
-import com.android.dialer.common.LogUtil;
+import com.android.dialer2.common.LogUtil;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 

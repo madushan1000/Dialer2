@@ -35,14 +35,14 @@ import android.widget.TextView;
 import com.android.contacts.common.ContactsUtils;
 import com.android.contacts.common.R;
 import com.android.contacts.common.util.SearchUtil;
-import com.android.dialer.common.LogUtil;
-import com.android.dialer.common.cp2.DirectoryCompat;
-import com.android.dialer.compat.CompatUtils;
-import com.android.dialer.configprovider.ConfigProviderBindings;
-import com.android.dialer.contactphoto.ContactPhotoManager;
-import com.android.dialer.contactphoto.ContactPhotoManager.DefaultImageRequest;
-import com.android.dialer.logging.InteractionEvent;
-import com.android.dialer.logging.Logger;
+import com.android.dialer2.common.LogUtil;
+import com.android.dialer2.common.cp2.DirectoryCompat;
+import com.android.dialer2.compat.CompatUtils;
+import com.android.dialer2.configprovider.ConfigProviderBindings;
+import com.android.dialer2.contactphoto.ContactPhotoManager;
+import com.android.dialer2.contactphoto.ContactPhotoManager.DefaultImageRequest;
+import com.android.dialer2.logging.InteractionEvent;
+import com.android.dialer2.logging.Logger;
 import java.util.HashSet;
 
 /**

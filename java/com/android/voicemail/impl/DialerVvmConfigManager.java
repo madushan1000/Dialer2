@@ -23,7 +23,7 @@ import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.annotation.VisibleForTesting;
 import android.util.ArrayMap;
-import com.android.dialer.configprovider.ConfigProviderBindings;
+import com.android.dialer2.configprovider.ConfigProviderBindings;
 import com.android.voicemail.impl.utils.XmlUtils;
 import com.google.common.collect.ComparisonChain;
 import java.io.IOException;

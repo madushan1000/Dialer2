@@ -23,7 +23,7 @@ import android.os.Build.VERSION_CODES;
 import android.view.Surface;
 import android.view.TextureView;
 import android.view.View;
-import com.android.dialer.common.LogUtil;
+import com.android.dialer2.common.LogUtil;
 import com.android.incallui.videosurface.protocol.VideoSurfaceDelegate;
 import com.android.incallui.videosurface.protocol.VideoSurfaceTexture;
 import java.util.Locale;

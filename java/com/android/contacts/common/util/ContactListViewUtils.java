@@ -20,7 +20,7 @@ import android.content.res.Resources;
 import android.view.View;
 import android.widget.ListView;
 import com.android.contacts.common.R;
-import com.android.dialer.util.ViewUtil;
+import com.android.dialer2.util.ViewUtil;
 
 /** Utilities for configuring ListViews with a card background. */
 public class ContactListViewUtils {

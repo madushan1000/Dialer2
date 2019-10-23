@@ -18,7 +18,7 @@ package com.android.voicemail.impl;
 import android.content.Context;
 import android.preference.PreferenceManager;
 import android.telecom.PhoneAccountHandle;
-import com.android.dialer.common.PerAccountSharedPreferences;
+import com.android.dialer2.common.PerAccountSharedPreferences;
 
 /**
  * Save visual voicemail values in shared preferences to be retrieved later. Because a voicemail

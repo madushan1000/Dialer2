@@ -35,9 +35,9 @@ import android.text.TextUtils;
 import com.android.contacts.common.ContactsUtils;
 import com.android.contacts.common.ContactsUtils.UserType;
 import com.android.contacts.common.util.TelephonyManagerUtils;
-import com.android.dialer.phonenumbercache.ContactInfoHelper;
-import com.android.dialer.phonenumbercache.PhoneLookupUtil;
-import com.android.dialer.phonenumberutil.PhoneNumberHelper;
+import com.android.dialer2.phonenumbercache.ContactInfoHelper;
+import com.android.dialer2.phonenumbercache.PhoneLookupUtil;
+import com.android.dialer2.phonenumberutil.PhoneNumberHelper;
 
 /**
  * Looks up caller information for the given phone number. This is intermediate data and should NOT

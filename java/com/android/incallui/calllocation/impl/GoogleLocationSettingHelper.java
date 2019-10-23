@@ -25,8 +25,8 @@ import android.database.Cursor;
 import android.net.Uri;
 import android.provider.Settings.Secure;
 import android.provider.Settings.SettingNotFoundException;
-import com.android.dialer.common.LogUtil;
-import com.android.dialer.strictmode.StrictModeUtils;
+import com.android.dialer2.common.LogUtil;
+import com.android.dialer2.strictmode.StrictModeUtils;
 
 /**
  * Helper class to check if Google Location Services is enabled. This class is based on

@@ -31,19 +31,19 @@ import android.view.ViewGroup;
 import com.android.contacts.common.R;
 import com.android.contacts.common.list.PhoneNumberListAdapter.Listener;
 import com.android.contacts.common.util.AccountFilterUtil;
-import com.android.dialer.callintent.CallInitiationType;
-import com.android.dialer.callintent.CallInitiationType.Type;
-import com.android.dialer.callintent.CallSpecificAppData;
-import com.android.dialer.common.Assert;
-import com.android.dialer.common.LogUtil;
-import com.android.dialer.dialercontact.DialerContact;
-import com.android.dialer.duo.DuoComponent;
-import com.android.dialer.enrichedcall.EnrichedCallComponent;
-import com.android.dialer.enrichedcall.EnrichedCallManager;
-import com.android.dialer.logging.DialerImpression;
-import com.android.dialer.logging.Logger;
-import com.android.dialer.performancereport.PerformanceReport;
-import com.android.dialer.protos.ProtoParsers;
+import com.android.dialer2.callintent.CallInitiationType;
+import com.android.dialer2.callintent.CallInitiationType.Type;
+import com.android.dialer2.callintent.CallSpecificAppData;
+import com.android.dialer2.common.Assert;
+import com.android.dialer2.common.LogUtil;
+import com.android.dialer2.dialercontact.DialerContact;
+import com.android.dialer2.duo.DuoComponent;
+import com.android.dialer2.enrichedcall.EnrichedCallComponent;
+import com.android.dialer2.enrichedcall.EnrichedCallManager;
+import com.android.dialer2.logging.DialerImpression;
+import com.android.dialer2.logging.Logger;
+import com.android.dialer2.performancereport.PerformanceReport;
+import com.android.dialer2.protos.ProtoParsers;
 import java.util.Set;
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -106,7 +106,7 @@ public class PhoneNumberPickerFragment extends ContactEntryListFragment<ContactE
   @Override
   public void onCallAndShareIconClicked(int position) {
     // Required because of cyclic dependencies of everything depending on contacts/common.
-    String componentName = "com.android.dialer.callcomposer.CallComposerActivity";
+    String componentName = "com.android.dialer2.callcomposer.CallComposerActivity";
     Intent intent = new Intent();
     intent.setComponent(new ComponentName(getContext(), componentName));
     DialerContact contact = ((PhoneNumberListAdapter) getAdapter()).getDialerContact(position);

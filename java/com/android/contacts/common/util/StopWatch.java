@@ -16,7 +16,7 @@
 
 package com.android.contacts.common.util;
 
-import com.android.dialer.common.LogUtil;
+import com.android.dialer2.common.LogUtil;
 import java.util.ArrayList;
 
 /** A {@link StopWatch} records start, laps and stop, and print them to logcat. */

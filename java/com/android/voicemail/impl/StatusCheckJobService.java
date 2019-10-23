@@ -23,7 +23,7 @@ import android.content.Context;
 import android.os.Build.VERSION_CODES;
 import android.telecom.PhoneAccountHandle;
 import android.telecom.TelecomManager;
-import com.android.dialer.constants.ScheduledJobIds;
+import com.android.dialer2.constants.ScheduledJobIds;
 import com.android.voicemail.impl.sync.VvmAccountManager;
 import java.util.concurrent.TimeUnit;
 

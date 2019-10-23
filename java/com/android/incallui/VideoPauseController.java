@@ -17,8 +17,8 @@
 package com.android.incallui;
 
 import android.support.annotation.NonNull;
-import com.android.dialer.common.Assert;
-import com.android.dialer.common.LogUtil;
+import com.android.dialer2.common.Assert;
+import com.android.dialer2.common.LogUtil;
 import com.android.incallui.InCallPresenter.InCallState;
 import com.android.incallui.InCallPresenter.InCallStateListener;
 import com.android.incallui.InCallPresenter.IncomingCallListener;

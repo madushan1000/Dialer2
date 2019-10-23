@@ -17,7 +17,7 @@
 package com.android.incallui.bindings;
 
 import android.graphics.Bitmap;
-import com.android.dialer.logging.ContactLookupResult;
+import com.android.dialer2.logging.ContactLookupResult;
 
 /** Provides phone number lookup services. */
 public interface PhoneNumberService {

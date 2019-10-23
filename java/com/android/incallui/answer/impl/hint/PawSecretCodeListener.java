@@ -24,11 +24,11 @@ import android.support.annotation.IntDef;
 import android.support.annotation.VisibleForTesting;
 import android.text.TextUtils;
 import android.widget.Toast;
-import com.android.dialer.common.LogUtil;
-import com.android.dialer.configprovider.ConfigProviderBindings;
-import com.android.dialer.logging.DialerImpression.Type;
-import com.android.dialer.logging.Logger;
-import com.android.dialer.storage.StorageComponent;
+import com.android.dialer2.common.LogUtil;
+import com.android.dialer2.configprovider.ConfigProviderBindings;
+import com.android.dialer2.logging.DialerImpression.Type;
+import com.android.dialer2.logging.Logger;
+import com.android.dialer2.storage.StorageComponent;
 import java.util.Random;
 
 /**

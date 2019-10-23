@@ -25,8 +25,8 @@ import android.os.AsyncTask;
 import android.os.Build.VERSION_CODES;
 import android.provider.CallLog;
 import android.support.v4.content.ContextCompat;
-import com.android.dialer.common.LogUtil;
-import com.android.dialer.telecom.TelecomUtil;
+import com.android.dialer2.common.LogUtil;
+import com.android.dialer2.telecom.TelecomUtil;
 import java.util.Objects;
 
 /**

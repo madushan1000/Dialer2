@@ -24,9 +24,9 @@ import android.telecom.Connection.VideoProvider;
 import android.telecom.InCallService.VideoCall;
 import android.telecom.VideoProfile;
 import android.telecom.VideoProfile.CameraCapabilities;
-import com.android.dialer.common.LogUtil;
-import com.android.dialer.logging.DialerImpression;
-import com.android.dialer.logging.LoggingBindings;
+import com.android.dialer2.common.LogUtil;
+import com.android.dialer2.logging.DialerImpression;
+import com.android.dialer2.logging.LoggingBindings;
 import com.android.incallui.videotech.VideoTech.VideoTechListener;
 import com.android.incallui.videotech.utils.SessionModificationState;
 

@@ -19,7 +19,7 @@ package com.android.contacts.common.model.dataitem;
 import android.content.ContentValues;
 import android.content.Context;
 import android.provider.ContactsContract.CommonDataKinds.Phone;
-import com.android.dialer.phonenumberutil.PhoneNumberHelper;
+import com.android.dialer2.phonenumberutil.PhoneNumberHelper;
 
 /**
  * Represents a phone data item, wrapping the columns in {@link

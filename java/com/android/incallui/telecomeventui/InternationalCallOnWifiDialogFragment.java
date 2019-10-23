@@ -29,8 +29,8 @@ import android.support.v4.app.DialogFragment;
 import android.support.v4.os.UserManagerCompat;
 import android.view.View;
 import android.widget.CheckBox;
-import com.android.dialer.common.Assert;
-import com.android.dialer.common.LogUtil;
+import com.android.dialer2.common.Assert;
+import com.android.dialer2.common.LogUtil;
 
 /**
  * Dialog that may be shown when users place an outgoing call to an international number while on

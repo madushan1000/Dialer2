@@ -21,7 +21,7 @@ import android.content.res.TypedArray;
 import android.util.AttributeSet;
 import android.view.SurfaceView;
 import android.view.View;
-import com.android.dialer.common.Assert;
+import com.android.dialer2.common.Assert;
 
 /**
  * A SurfaceView that maintains its aspect ratio to be a desired target value.

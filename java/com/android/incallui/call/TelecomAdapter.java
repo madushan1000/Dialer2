@@ -23,8 +23,8 @@ import android.os.Looper;
 import android.support.annotation.MainThread;
 import android.support.annotation.VisibleForTesting;
 import android.telecom.InCallService;
-import com.android.dialer.common.Assert;
-import com.android.dialer.common.LogUtil;
+import com.android.dialer2.common.Assert;
+import com.android.dialer2.common.LogUtil;
 import java.util.List;
 
 /** Wrapper around Telecom APIs. */

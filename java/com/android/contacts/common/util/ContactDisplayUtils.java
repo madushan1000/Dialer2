@@ -29,7 +29,7 @@ import android.text.style.TtsSpan;
 import android.util.Patterns;
 import com.android.contacts.common.R;
 import com.android.contacts.common.preference.ContactsPreferences;
-import com.android.dialer.common.LogUtil;
+import com.android.dialer2.common.LogUtil;
 import java.util.Objects;
 
 /** Methods for handling various contact data labels. */

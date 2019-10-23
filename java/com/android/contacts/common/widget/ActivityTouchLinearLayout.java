@@ -20,7 +20,7 @@ import android.content.Context;
 import android.util.AttributeSet;
 import android.view.MotionEvent;
 import android.widget.LinearLayout;
-import com.android.dialer.util.TouchPointManager;
+import com.android.dialer2.util.TouchPointManager;
 
 /**
  * Linear layout for an activity that listens to all touch events on the screen and saves the touch

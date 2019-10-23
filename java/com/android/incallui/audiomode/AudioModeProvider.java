@@ -20,7 +20,7 @@ import android.content.Context;
 import android.media.AudioDeviceInfo;
 import android.media.AudioManager;
 import android.telecom.CallAudioState;
-import com.android.dialer.common.LogUtil;
+import com.android.dialer2.common.LogUtil;
 import java.util.ArrayList;
 import java.util.List;
 

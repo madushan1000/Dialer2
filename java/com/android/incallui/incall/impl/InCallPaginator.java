@@ -26,7 +26,7 @@ import android.support.v4.view.ViewPager;
 import android.support.v4.view.ViewPager.OnPageChangeListener;
 import android.util.AttributeSet;
 import android.view.View;
-import com.android.dialer.common.Assert;
+import com.android.dialer2.common.Assert;
 
 /**
  * This is the view class for incall paginator visible when a user has EC data attached to their

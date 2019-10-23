@@ -28,9 +28,9 @@ import android.provider.CallLog.Calls;
 import android.provider.VoicemailContract.Voicemails;
 import android.telecom.PhoneAccountHandle;
 import android.telecom.TelecomManager;
-import com.android.dialer.common.LogUtil;
-import com.android.dialer.common.concurrent.DialerExecutor.Worker;
-import com.android.dialer.common.concurrent.DialerExecutorComponent;
+import com.android.dialer2.common.LogUtil;
+import com.android.dialer2.common.concurrent.DialerExecutor.Worker;
+import com.android.dialer2.common.concurrent.DialerExecutorComponent;
 import com.android.voicemail.VoicemailComponent;
 import com.android.voicemail.VoicemailVersionConstants;
 

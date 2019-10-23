@@ -26,9 +26,9 @@ import android.os.Handler;
 import android.provider.ContactsContract.Directory;
 import android.text.TextUtils;
 import com.android.contacts.common.R;
-import com.android.dialer.common.LogUtil;
-import com.android.dialer.common.cp2.DirectoryCompat;
-import com.android.dialer.util.PermissionsUtil;
+import com.android.dialer2.common.LogUtil;
+import com.android.dialer2.common.cp2.DirectoryCompat;
+import com.android.dialer2.util.PermissionsUtil;
 
 /** A specialized loader for the list of directories, see {@link Directory}. */
 public class DirectoryListLoader extends AsyncTaskLoader<Cursor> {

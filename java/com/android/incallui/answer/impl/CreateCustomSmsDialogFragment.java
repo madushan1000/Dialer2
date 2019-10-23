@@ -30,7 +30,7 @@ import android.view.View;
 import android.view.WindowManager.LayoutParams;
 import android.widget.Button;
 import android.widget.EditText;
-import com.android.dialer.common.FragmentUtils;
+import com.android.dialer2.common.FragmentUtils;
 import com.android.incallui.incalluilock.InCallUiLock;
 
 /**

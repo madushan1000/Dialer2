@@ -17,7 +17,7 @@
 package com.android.incallui.speakeasy;
 
 import android.content.Context;
-import com.android.dialer.inject.HasRootComponent;
+import com.android.dialer2.inject.HasRootComponent;
 import dagger.Subcomponent;
 
 /** Dagger component to get SpeakEasyCallManager. */

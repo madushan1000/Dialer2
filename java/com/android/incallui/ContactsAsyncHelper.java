@@ -25,9 +25,9 @@ import android.net.Uri;
 import android.support.annotation.MainThread;
 import android.support.annotation.Nullable;
 import android.support.annotation.WorkerThread;
-import com.android.dialer.common.LogUtil;
-import com.android.dialer.common.concurrent.DialerExecutor;
-import com.android.dialer.common.concurrent.DialerExecutorComponent;
+import com.android.dialer2.common.LogUtil;
+import com.android.dialer2.common.concurrent.DialerExecutor;
+import com.android.dialer2.common.concurrent.DialerExecutorComponent;
 import java.io.IOException;
 import java.io.InputStream;
 

@@ -22,7 +22,7 @@ import android.hardware.SensorEvent;
 import android.hardware.SensorEventListener;
 import android.hardware.SensorManager;
 import android.support.annotation.Nullable;
-import com.android.dialer.common.LogUtil;
+import com.android.dialer2.common.LogUtil;
 
 /**
  * A fake PROXIMITY_SCREEN_OFF_WAKE_LOCK implemented by the app. It will use {@link

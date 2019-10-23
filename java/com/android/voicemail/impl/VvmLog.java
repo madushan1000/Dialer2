@@ -15,8 +15,8 @@
  */
 package com.android.voicemail.impl;
 
-import com.android.dialer.common.LogUtil;
-import com.android.dialer.persistentlog.PersistentLogger;
+import com.android.dialer2.common.LogUtil;
+import com.android.dialer2.persistentlog.PersistentLogger;
 import com.android.voicemail.impl.utils.IndentingPrintWriter;
 import java.io.FileDescriptor;
 import java.io.PrintWriter;

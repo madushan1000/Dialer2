@@ -17,9 +17,9 @@ package com.android.voicemail.impl.transcribe;
 
 import android.content.Context;
 import android.net.Uri;
-import com.android.dialer.common.concurrent.DialerExecutor;
-import com.android.dialer.common.concurrent.DialerExecutorComponent;
-import com.android.dialer.compat.android.provider.VoicemailCompat;
+import com.android.dialer2.common.concurrent.DialerExecutor;
+import com.android.dialer2.common.concurrent.DialerExecutorComponent;
+import com.android.dialer2.compat.android.provider.VoicemailCompat;
 import com.google.internal.communications.voicemailtranscription.v1.SendTranscriptionFeedbackRequest;
 import com.google.internal.communications.voicemailtranscription.v1.TranscriptionRating;
 import com.google.internal.communications.voicemailtranscription.v1.TranscriptionRatingValue;

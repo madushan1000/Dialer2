@@ -22,15 +22,15 @@ import android.content.Intent;
 import android.os.IBinder;
 import android.provider.CallLog;
 import android.support.annotation.Nullable;
-import com.android.dialer.blocking.FilteredNumberAsyncQueryHandler;
-import com.android.dialer.common.LogUtil;
-import com.android.dialer.location.GeoUtil;
-import com.android.dialer.logging.ContactLookupResult;
-import com.android.dialer.logging.DialerImpression;
-import com.android.dialer.logging.Logger;
-import com.android.dialer.logging.ReportingLocation;
-import com.android.dialer.notification.DialerNotificationManager;
-import com.android.dialer.spam.SpamComponent;
+import com.android.dialer2.blocking.FilteredNumberAsyncQueryHandler;
+import com.android.dialer2.common.LogUtil;
+import com.android.dialer2.location.GeoUtil;
+import com.android.dialer2.logging.ContactLookupResult;
+import com.android.dialer2.logging.DialerImpression;
+import com.android.dialer2.logging.Logger;
+import com.android.dialer2.logging.ReportingLocation;
+import com.android.dialer2.notification.DialerNotificationManager;
+import com.android.dialer2.spam.SpamComponent;
 import com.android.incallui.call.DialerCall;
 
 /**

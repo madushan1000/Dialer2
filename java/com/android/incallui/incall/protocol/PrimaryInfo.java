@@ -18,8 +18,8 @@ package com.android.incallui.incall.protocol;
 
 import android.graphics.drawable.Drawable;
 import android.support.annotation.Nullable;
-import com.android.dialer.common.LogUtil;
-import com.android.dialer.multimedia.MultimediaData;
+import com.android.dialer2.common.LogUtil;
+import com.android.dialer2.multimedia.MultimediaData;
 import com.google.auto.value.AutoValue;
 import java.util.Locale;
 

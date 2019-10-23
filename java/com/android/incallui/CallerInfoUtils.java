@@ -24,12 +24,12 @@ import android.telecom.TelecomManager;
 import android.text.TextUtils;
 import com.android.contacts.common.model.Contact;
 import com.android.contacts.common.model.ContactLoader;
-import com.android.dialer.common.LogUtil;
-import com.android.dialer.phonenumbercache.CachedNumberLookupService;
-import com.android.dialer.phonenumbercache.CachedNumberLookupService.CachedContactInfo;
-import com.android.dialer.phonenumbercache.ContactInfo;
-import com.android.dialer.phonenumberutil.PhoneNumberHelper;
-import com.android.dialer.util.PermissionsUtil;
+import com.android.dialer2.common.LogUtil;
+import com.android.dialer2.phonenumbercache.CachedNumberLookupService;
+import com.android.dialer2.phonenumbercache.CachedNumberLookupService.CachedContactInfo;
+import com.android.dialer2.phonenumbercache.ContactInfo;
+import com.android.dialer2.phonenumberutil.PhoneNumberHelper;
+import com.android.dialer2.util.PermissionsUtil;
 import com.android.incallui.call.DialerCall;
 import java.util.Arrays;
 

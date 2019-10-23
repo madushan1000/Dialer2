@@ -17,7 +17,7 @@ package com.android.voicemail.impl.transcribe;
 
 import android.content.Context;
 import android.os.Build;
-import com.android.dialer.configprovider.ConfigProviderBindings;
+import com.android.dialer2.configprovider.ConfigProviderBindings;
 import java.util.concurrent.TimeUnit;
 
 /** Provides configuration values needed to connect to the transcription server. */

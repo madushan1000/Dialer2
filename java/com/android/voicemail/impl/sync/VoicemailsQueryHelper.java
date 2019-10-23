@@ -27,7 +27,7 @@ import android.provider.VoicemailContract;
 import android.provider.VoicemailContract.Voicemails;
 import android.support.annotation.NonNull;
 import android.telecom.PhoneAccountHandle;
-import com.android.dialer.common.Assert;
+import com.android.dialer2.common.Assert;
 import com.android.voicemail.impl.Voicemail;
 import java.util.ArrayList;
 import java.util.List;

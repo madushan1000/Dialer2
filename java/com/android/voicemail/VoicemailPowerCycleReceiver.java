@@ -19,7 +19,7 @@ package com.android.voicemail;
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
-import com.android.dialer.common.Assert;
+import com.android.dialer2.common.Assert;
 
 /** Receives {@link Intent#ACTION_BOOT_COMPLETED} and {@link Intent#ACTION_SHUTDOWN} */
 public class VoicemailPowerCycleReceiver extends BroadcastReceiver {

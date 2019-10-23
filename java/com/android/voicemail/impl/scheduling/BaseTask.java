@@ -26,7 +26,7 @@ import android.support.annotation.NonNull;
 import android.support.annotation.VisibleForTesting;
 import android.support.annotation.WorkerThread;
 import android.telecom.PhoneAccountHandle;
-import com.android.dialer.proguard.UsedByReflection;
+import com.android.dialer2.proguard.UsedByReflection;
 import com.android.voicemail.impl.Assert;
 import com.android.voicemail.impl.NeededForTesting;
 import java.util.ArrayList;

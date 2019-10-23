@@ -20,7 +20,7 @@ import android.content.Context;
 import android.content.pm.ActivityInfo;
 import android.support.annotation.IntDef;
 import android.view.OrientationEventListener;
-import com.android.dialer.common.LogUtil;
+import com.android.dialer2.common.LogUtil;
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 

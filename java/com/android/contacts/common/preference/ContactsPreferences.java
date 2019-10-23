@@ -27,7 +27,7 @@ import android.provider.Settings.SettingNotFoundException;
 import android.text.TextUtils;
 import com.android.contacts.common.R;
 import com.android.contacts.common.model.account.AccountWithDataSet;
-import com.android.dialer.strictmode.StrictModeUtils;
+import com.android.dialer2.strictmode.StrictModeUtils;
 
 /** Manages user preferences for contacts. */
 public class ContactsPreferences implements OnSharedPreferenceChangeListener {

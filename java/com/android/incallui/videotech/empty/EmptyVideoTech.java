@@ -20,7 +20,7 @@ import android.content.Context;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.telecom.PhoneAccountHandle;
-import com.android.dialer.common.Assert;
+import com.android.dialer2.common.Assert;
 import com.android.incallui.video.protocol.VideoCallScreen;
 import com.android.incallui.video.protocol.VideoCallScreenDelegate;
 import com.android.incallui.videotech.VideoTech;
@@ -111,7 +111,7 @@ public class EmptyVideoTech implements VideoTech {
   public void becomePrimary() {}
 
   @Override
-  public com.android.dialer.logging.VideoTech.Type getVideoTechType() {
-    return com.android.dialer.logging.VideoTech.Type.NONE;
+  public com.android.dialer2.logging.VideoTech.Type getVideoTechType() {
+    return com.android.dialer2.logging.VideoTech.Type.NONE;
   }
 }

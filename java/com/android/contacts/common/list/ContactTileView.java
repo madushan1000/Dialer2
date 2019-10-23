@@ -25,11 +25,11 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import com.android.contacts.common.MoreContactUtils;
 import com.android.contacts.common.R;
-import com.android.dialer.callintent.CallInitiationType;
-import com.android.dialer.callintent.CallSpecificAppData;
-import com.android.dialer.common.LogUtil;
-import com.android.dialer.contactphoto.ContactPhotoManager;
-import com.android.dialer.contactphoto.ContactPhotoManager.DefaultImageRequest;
+import com.android.dialer2.callintent.CallInitiationType;
+import com.android.dialer2.callintent.CallSpecificAppData;
+import com.android.dialer2.common.LogUtil;
+import com.android.dialer2.contactphoto.ContactPhotoManager;
+import com.android.dialer2.contactphoto.ContactPhotoManager.DefaultImageRequest;
 
 /** A ContactTile displays a contact's picture and name */
 public abstract class ContactTileView extends FrameLayout {

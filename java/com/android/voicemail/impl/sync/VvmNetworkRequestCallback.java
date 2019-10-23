@@ -27,7 +27,7 @@ import android.os.Looper;
 import android.support.annotation.CallSuper;
 import android.telecom.PhoneAccountHandle;
 import android.telephony.TelephonyManager;
-import com.android.dialer.common.Assert;
+import com.android.dialer2.common.Assert;
 import com.android.voicemail.impl.OmtpEvents;
 import com.android.voicemail.impl.OmtpVvmCarrierConfigHelper;
 import com.android.voicemail.impl.VoicemailStatus;

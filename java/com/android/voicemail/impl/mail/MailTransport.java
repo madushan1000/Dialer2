@@ -19,7 +19,7 @@ import android.content.Context;
 import android.net.Network;
 import android.net.TrafficStats;
 import android.support.annotation.VisibleForTesting;
-import com.android.dialer.constants.TrafficStatsTags;
+import com.android.dialer2.constants.TrafficStatsTags;
 import com.android.voicemail.impl.OmtpEvents;
 import com.android.voicemail.impl.imap.ImapHelper;
 import com.android.voicemail.impl.mail.store.ImapStore;

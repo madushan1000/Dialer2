@@ -26,9 +26,9 @@ import android.support.annotation.WorkerThread;
 import android.support.v4.app.JobIntentService;
 import android.support.v4.os.BuildCompat;
 import android.telecom.PhoneAccountHandle;
-import com.android.dialer.common.LogUtil;
-import com.android.dialer.common.concurrent.ThreadUtil;
-import com.android.dialer.constants.ScheduledJobIds;
+import com.android.dialer2.common.LogUtil;
+import com.android.dialer2.common.concurrent.ThreadUtil;
+import com.android.dialer2.constants.ScheduledJobIds;
 import java.util.List;
 
 /**

@@ -30,8 +30,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.view.WindowManager;
 import android.widget.TextView;
-import com.android.dialer.common.FragmentUtils;
-import com.android.dialer.common.LogUtil;
+import com.android.dialer2.common.FragmentUtils;
+import com.android.dialer2.common.LogUtil;
 
 /** Shows picker for audio routes */
 public class AudioRouteSelectorDialogFragment extends BottomSheetDialogFragment {

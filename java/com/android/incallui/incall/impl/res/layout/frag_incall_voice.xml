@@ -86,7 +86,7 @@
           android:layout_height="wrap_content"/>
     </LinearLayout>
 
-    <com.android.dialer.widget.LockableViewPager
+    <com.android.dialer2.widget.LockableViewPager
         android:id="@+id/incall_pager"
         android:layout_width="match_parent"
         android:layout_height="match_parent"

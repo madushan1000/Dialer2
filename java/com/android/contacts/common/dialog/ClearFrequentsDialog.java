@@ -29,7 +29,7 @@ import android.os.AsyncTask;
 import android.os.Bundle;
 import android.provider.ContactsContract;
 import com.android.contacts.common.R;
-import com.android.dialer.util.PermissionsUtil;
+import com.android.dialer2.util.PermissionsUtil;
 
 /** Dialog that clears the frequently contacted list after confirming with the user. */
 public class ClearFrequentsDialog extends DialogFragment {

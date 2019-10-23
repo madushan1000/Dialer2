@@ -20,7 +20,7 @@ import android.content.Context;
 import android.content.pm.PackageManager;
 import android.support.annotation.NonNull;
 import android.support.v4.content.ContextCompat;
-import com.android.dialer.util.PermissionsUtil;
+import com.android.dialer2.util.PermissionsUtil;
 
 public class VideoUtils {
 

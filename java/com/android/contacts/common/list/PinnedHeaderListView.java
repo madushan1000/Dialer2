@@ -28,7 +28,7 @@ import android.widget.AbsListView.OnScrollListener;
 import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemSelectedListener;
 import android.widget.ListAdapter;
-import com.android.dialer.util.ViewUtil;
+import com.android.dialer2.util.ViewUtil;
 
 /**
  * A ListView that maintains a header pinned at the top of the list. The pinned header can be pushed

@@ -31,7 +31,7 @@ import android.provider.Settings;
 import android.provider.Settings.Global;
 import android.support.annotation.VisibleForTesting;
 import android.telecom.PhoneAccountHandle;
-import com.android.dialer.constants.ScheduledJobIds;
+import com.android.dialer2.constants.ScheduledJobIds;
 
 /**
  * JobService triggered when the setup wizard is completed, and rerun all {@link ActivationTask}

@@ -29,11 +29,11 @@ import android.text.TextUtils;
 import android.util.Log;
 import android.widget.Toast;
 
-import com.android.dialer.R;
-import com.android.dialer.callrecord.CallRecordingDataStore;
-import com.android.dialer.callrecord.CallRecording;
-import com.android.dialer.callrecord.ICallRecorderService;
-import com.android.dialer.callrecord.impl.CallRecorderService;
+import com.android.dialer2.R;
+import com.android.dialer2.callrecord.CallRecordingDataStore;
+import com.android.dialer2.callrecord.CallRecording;
+import com.android.dialer2.callrecord.ICallRecorderService;
+import com.android.dialer2.callrecord.impl.CallRecorderService;
 
 import java.util.Date;
 import java.util.HashSet;

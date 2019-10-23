@@ -45,9 +45,9 @@ import android.widget.ListView;
 import com.android.common.widget.CompositeCursorAdapter.Partition;
 import com.android.contacts.common.preference.ContactsPreferences;
 import com.android.contacts.common.util.ContactListViewUtils;
-import com.android.dialer.common.LogUtil;
-import com.android.dialer.contactphoto.ContactPhotoManager;
-import com.android.dialer.performancereport.PerformanceReport;
+import com.android.dialer2.common.LogUtil;
+import com.android.dialer2.contactphoto.ContactPhotoManager;
+import com.android.dialer2.performancereport.PerformanceReport;
 import java.lang.ref.WeakReference;
 import java.util.Locale;
 
